@@ -19,3 +19,12 @@
 .footer__link {
   color: var(--accent-2);
 }
+
+@media (orientation: landscape) {
+  .footer::after {
+    content: "💖";
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+  }
+} ;
