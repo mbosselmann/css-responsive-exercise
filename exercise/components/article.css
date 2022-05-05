@@ -8,7 +8,7 @@
 }
 
 .article__headline {
-  font-size: 1.2rem;
+  font-size: var(--font-size);
   text-decoration: underline;
   text-decoration-color: var(--accent-1);
   text-decoration-thickness: 5px;
@@ -24,4 +24,11 @@
   position: absolute;
   top: 15px;
   right: 15px;
+}
+
+@media (min-width: 600px) {
+  .article__svg {
+    top: unset;
+    bottom: 15px;
+  }
 }

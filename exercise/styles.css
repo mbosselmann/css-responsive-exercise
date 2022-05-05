@@ -11,6 +11,7 @@
 :root {
   --header-height: 75px;
   --footer-height: 50px;
+  --font-size: 1.2rem;
 
   --dark: #282a36;
   --medium: #44475a;
@@ -28,5 +29,17 @@
     --contrast-text: #000000;
     --accent-1: rgba(171, 9, 9, 0.895);
     --accent-2: #000;
+  }
+}
+
+@media (min-width: 600px) {
+  :root {
+    --font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  :root {
+    --font-size: 1.7rem;
   }
 }
